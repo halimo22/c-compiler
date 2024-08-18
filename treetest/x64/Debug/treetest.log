@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Projects\treetest\treetest\Source.c(246,34): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Projects\treetest\treetest\Source.c(113): warning C4715: 'getDtype': not all control paths return a value
+C:\Projects\treetest\treetest\Source.c(155): warning C4715: 'getType': not all control paths return a value
+  treetest.vcxproj -> C:\Projects\treetest\x64\Debug\treetest.exe

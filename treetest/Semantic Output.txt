@@ -1,0 +1,20 @@
+	program
+	{	if_statement	}
+	if	(	c	)	program	S
+	Identifier.value	<=	Char.value	{	function	}	else	if_statement
+	time			'e'	printf	(	String	)	;	function	if	(	c	)	program	S
+	"Hello"	printf	(	String	)	;	Identifier.value	<	Char.value	{	function	}	else	if_statement
+	"Good morning."	time			'x'	printf	(	String	)	;	if	(	c	)	program	S
+	"Good day."	Identifier.value	==	Char.value	{	function	}	else	program
+	time			'4'	printf	(	String	)	;	{	function	}
+	"I Miss U"	printf	(	String.value	)	;	function
+	"Good evening."	printf	(	String.value	)	;	function
+	"Hello 2"	printf	(	String.value	)	;
+	"Hello 3"
+
+
+
+
+
+
+

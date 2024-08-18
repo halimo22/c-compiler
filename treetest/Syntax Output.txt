@@ -1,0 +1,89 @@
+
+ Secondly Syntax Analysis : 
+Input Tockens :
+ { :: Special Symbol
+ if :: Reserved Word
+ ( :: Special Symbol
+ time		 :: Identifier
+ <= :: Special Symbol
+ 'e' :: Char
+ ) :: Special Symbol
+ { :: Special Symbol
+ printf :: Reserved Word
+ ( :: Special Symbol
+ "Hello" :: String
+ ) :: Special Symbol
+ ; :: Special Symbol
+ printf :: Reserved Word
+ ( :: Special Symbol
+ "Good morning." :: String
+ ) :: Special Symbol
+ ; :: Special Symbol
+ } :: Special Symbol
+ else :: Reserved Word
+ if :: Reserved Word
+ ( :: Special Symbol
+ time		 :: Identifier
+ < :: Special Symbol
+ 'x' :: Char
+ ) :: Special Symbol
+ { :: Special Symbol
+ printf :: Reserved Word
+ ( :: Special Symbol
+ "Good day." :: String
+ ) :: Special Symbol
+ ; :: Special Symbol
+ } :: Special Symbol
+ else :: Reserved Word
+ if :: Reserved Word
+ ( :: Special Symbol
+ time		 :: Identifier
+ == :: Special Symbol
+ '4' :: Char
+ ) :: Special Symbol
+ { :: Special Symbol
+ printf :: Reserved Word
+ ( :: Special Symbol
+ "I Miss U" :: String
+ ) :: Special Symbol
+ ; :: Special Symbol
+ } :: Special Symbol
+ else :: Reserved Word
+ { :: Special Symbol
+ printf :: Reserved Word
+ ( :: Special Symbol
+ "Good evening." :: String
+ ) :: Special Symbol
+ ; :: Special Symbol
+ printf :: Reserved Word
+ ( :: Special Symbol
+ "Hello 2" :: String
+ ) :: Special Symbol
+ ; :: Special Symbol
+ printf :: Reserved Word
+ ( :: Special Symbol
+ "Hello 3" :: String
+ ) :: Special Symbol
+ ; :: Special Symbol
+ } :: Special Symbol
+ } :: Special Symbol
+	program
+	{	if_statement	}
+	if	(	c	)	program	S
+	Identifier	<=	Char	{	function	}	else	if_statement
+	time			'e'	printf	(	String	)	;	function	if	(	c	)	program	S
+	"Hello"	printf	(	String	)	;	Identifier	<	Char	{	function	}	else	if_statement
+	"Good morning."	time			'x'	printf	(	String	)	;	if	(	c	)	program	S
+	"Good day."	Identifier	==	Char	{	function	}	else	program
+	time			'4'	printf	(	String	)	;	{	function	}
+	"I Miss U"	printf	(	String	)	;	function
+	"Good evening."	printf	(	String	)	;	function
+	"Hello 2"	printf	(	String	)	;
+	"Hello 3"
+
+
+
+
+
+
+
